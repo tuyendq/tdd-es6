@@ -1,0 +1,27 @@
+{
+  "name": "tdd-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuyendq/tdd-es6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuyendq/tdd-es6/issues"
+  },
+  "homepage": "https://github.com/tuyendq/tdd-es6#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/register": "^7.15.3",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.0"
+  }
+}
