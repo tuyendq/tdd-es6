@@ -1,2 +1,0 @@
-import { isAnagram } from './anagram';
-
