@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha \"./src/**/*.test.js\" --recursive --require @babel/register --watch"
+    "test": "npx nyc mocha \"./src/**/*.test.js\" --recursive --require @babel/register",
+    "test-coverage": "npx nyc report --reporter=html"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
     "@babel/preset-env": "^7.15.0",
     "@babel/register": "^7.15.3",
     "chai": "^4.3.4",
-    "mocha": "^9.1.0"
+    "istanbul": "^0.4.5",
+    "mocha": "^9.1.0",
+    "nyc": "^15.1.0"
   }
 }
